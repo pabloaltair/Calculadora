@@ -1,8 +1,8 @@
 function calcular() {
     // Obtener los valores de los inputs
-    const num1 = parseFloat(document.getElementById('n1').value);
-    const operador = document.getElementById('operador').value;
-    const num2 = parseFloat(document.getElementById('n2').value);
+    var num1 = parseFloat(document.getElementById('n1').value);
+    var operador = document.getElementById('operador').value;
+    var num2 = parseFloat(document.getElementById('n2').value);
 
     // Realizar la operación
     let resultado;
