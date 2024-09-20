@@ -6,6 +6,7 @@ function calcular() {
 
     // Realizar la operación
     let resultado;
+    //Segun la opcion seleccionado del menu desplegable, hace su operacion asignada
     switch (operador) {
         case '+':
             resultado = num1 + num2;
