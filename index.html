@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="estilos.css"> </head>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
-        <input type="number" id="n1" placeholder="Ingrese primer numero">
-        <input type="number" id="n2" placeholder="Ingresa segundo numero">
-        <input type="text" id="operacion" placeholder="Ingresa operacion(+,-,*,/)">
-        <button></button>
-        <!-- SCRIPT CALCULOS NUMEROS -->
-        <script src="Calculos.js"></script>
-    </h1>
+    <input type="number" id="n1" placeholder="Ingrese primer numero">
+    <select id="operador">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="n2" placeholder="Ingresa segundo numero">
+    <p><button onclick="calcular()">Calcular</button></p> 
+    <p id="resultado"></p>
+    <script src="Calculos.js"></script>
 </body>
 </html>
